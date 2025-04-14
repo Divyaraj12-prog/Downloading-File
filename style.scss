@@ -60,3 +60,30 @@ body{
    }
 
 }
+@media (max-width:767px) {
+    .card{
+        width: 70%;
+        gap: 2vw;
+        padding: 2vw 3vw;
+        .line{
+            height: 2vw;
+            .innerline{
+                height: 2vw;
+            }
+        }
+        h2{
+            font-size: 5vw;
+        }
+        .buttons{
+            justify-content: space-between;
+            button{
+                padding: 0 2vw;
+                font-size: 3vw;
+            }
+            h3{
+                font-size: 5vw;
+            }
+        }
+       
+    }
+}
